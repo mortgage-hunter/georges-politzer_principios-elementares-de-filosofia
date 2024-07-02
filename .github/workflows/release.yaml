@@ -1,0 +1,51 @@
+name: release
+
+on:
+  push:
+    tags:
+      - '*'
+
+permissions:
+  contents: write
+
+jobs:      
+  build-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: "⚙ environment"
+        run: |
+          sudo apt-get install -qq libcairo2
+
+          python3 -m pip install -q --user pipx
+          python3 -m pipx ensurepath --force
+          pipx install 'standardebooks==2.6.4'
+
+      - name: "🧹 clean and formatting"
+        run: |
+          se clean .
+          se build-manifest .
+
+      - name: "🔎 lint"
+        run: se lint .
+
+      - name: "🔧 build book"
+        run: |
+          se build --kobo .
+
+      - name: "🚀 release" 
+        uses: softprops/action-gh-release@v2
+        with:
+          draft: false
+          prerelease: false
+          fail_on_unmatched_files: true
+          make_latest: true
+          # body_path: CHANGELOG.md
+          files: "*.epub"
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
