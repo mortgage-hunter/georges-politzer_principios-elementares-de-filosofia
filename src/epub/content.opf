@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-		<dc:identifier id="uid">[UrlFriendlyUniqueName]</dc:identifier>
-		<dc:identifier id="url">url:[BookLocation]</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:identifier id="uid">georges-politzer/principios-elementares-de-filosofia</dc:identifier>
+		<dc:identifier id="url">url:https://github.com/MortgageHunter/georges-politzer_principios-elementares-de-filosofia</dc:identifier>
+		<dc:date>2024-07-02T20:34:23Z</dc:date>
+		<meta property="dcterms:modified">2024-07-02T20:34:23Z</meta>
 		<dc:rights>This ebook is under the <a href="https://www.gnu.org/licenses/gpl-3.0.html">GPLv3</a>.</dc:rights>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
@@ -20,36 +20,33 @@
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
-		<dc:title id="title">[BookTitle]</dc:title>
-		<meta property="file-as" refines="#title">[BookTitleSorted]</meta>
-		<dc:subject id="subject-1">[Subject1]</dc:subject>
-		<dc:subject id="subject-2">[Subject2]</dc:subject>
+		<dc:title id="title">Princípios Elementares de Filosofia</dc:title>
+		<meta property="file-as" refines="#title">Princípios Elementares de Filosofia</meta>
+		<dc:subject id="subject-1">Philosophy</dc:subject>
+		<dc:subject id="subject-2">Communism</dc:subject>
+		<dc:subject id="subject-3">Socialism</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">[Subject1Id]</meta>
+		<meta property="term" refines="#subject-1">sh85100849</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">[Subject1Id]</meta>
-		<dc:description id="description">[Description]</dc:description>
-		<meta id="collection-1" property="belongs-to-collection">[CollectionName]</meta>
-		<meta property="collection-type" refines="#collection-1">set</meta>
-		<meta property="group-position" refines="#collection-1">1</meta>
-		<dc:language>[Language]</dc:language>
-		<dc:source>[Source]</dc:source>
-		<dc:creator id="author">[Author]</dc:creator>
-		<meta property="file-as" refines="#author">[AuthorSorted]</meta>
+		<meta property="term" refines="#subject-2">sh85029120</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh85124118</meta>
+		<dc:description id="description">Este documento apresenta o prefácio de um manual elementar de filosofia marxista ensinado por Georges Politzer na Universidade Operária de Paris nos anos 1930. O prefácio descreve o objetivo e método de ensino de Politzer, que visava tornar a filosofia marxista acessível aos trabalhadores manuais através de uma linguagem simples e exemplos familiares. O autor publica o manual com base em seus apontamentos dos cursos de Politzer para homenagear seu trabalho de formação política dos militantes e manter viva sua memória.</dc:description>
+		<dc:language>pt-PT</dc:language>
+		<dc:source>https://www.marxists.org/portugues/politzer/1936/mes/principios-pt.pdf</dc:source>
+		<dc:creator id="author">Georges Politzer</dc:creator>
+		<meta property="file-as" refines="#author">Politzer, Georges</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
+		<dc:contributor id="writer-of-preface">Maurice Le Goas</dc:creator>
+		<meta property="file-as" refines="#writer-of-preface">Le Goas, Maurice</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">[Contributor1]</dc:contributor>
 		<meta property="file-as" refines="#artist">[Contributor1Sorted]</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">[Contributor2]</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">[Contributor2Sorted</meta>
-		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<meta property="role" refines="#transcriber-1" scheme="marc:relators">ann</meta>
-		<dc:contributor id="transcriber-2">[Contributor3]</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">[Contributor3Sorted</meta>
-		<meta property="z3998:http" refines="#transcriber-2">[Contributor3HomePage]</meta>
-		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber">MortgageHunter</dc:contributor>
+		<meta property="file-as" refines="#transcriber">MortgageHunter</meta>
+		<meta property="z3998:http" refines="#transcriber">https://github.com/MortgageHunter</meta>
+		<meta property="role" refines="#transcriber" scheme="marc:relators">trc</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
