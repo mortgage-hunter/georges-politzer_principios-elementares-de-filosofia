@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1400 440">
-	<title>The titlepage for [BookTitle], by [Author]</title>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1400 540">
+	<title>The titlepage of Princípios Elementares de Filosofia, by Georges Politzer</title>
 	<style type="text/css">
 		text{
 			font-family: "League Spartan";
@@ -16,7 +16,8 @@
 			font-size: 70.17543793px;
 		}
 	</style>
-	<text class="title" x="700" y="130">[TitleLine]</text>
-	<text class="title" x="700" y="230">[TitleLine]</text>
-	<text class="author" x="700" y="390">[Author]</text>
+	<text class="title" x="700" y="130">PRINCÍPIOS</text>
+	<text class="title" x="700" y="230">ELEMENTARES</text>
+	<text class="title" x="700" y="330">DE FILOSOFIA</text>
+	<text class="author" x="700" y="490">GEORGES POLITZER</text>
 </svg>
