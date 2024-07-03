@@ -54,4 +54,14 @@
 			<reason>In this word, the quotes denote some sort of sarcasm</reason>
 		</ignore>
 	</file>
+	<file path="chapter-1-1.xhtml">
+		<ignore>
+			<code>s-023</code>
+			<reason>This casing makes sense for titles in Portuguese</reason>
+		</ignore>
+		<ignore>
+			<code>t-002</code>
+			<reason>In this word, the quotes denote some sort of sarcasm</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
