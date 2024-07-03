@@ -6,10 +6,16 @@
 			<reason>File unrelated to the book.</reason>
 		</ignore>
 	</file>
-  <file path="workflows">
+	<file path="workflows">
 		<ignore>
 			<code>f-008</code>
 			<reason>Path unrelated to the book.</reason>
+		</ignore>
+	</file>
+	<file path="colophon.xhtml">
+		<ignore>
+			<code>m-043</code>
+			<reason>Non-English Wikipedia source is not a problem for a Portuguese work</reason>
 		</ignore>
 	</file>
 </se-lint-ignore>

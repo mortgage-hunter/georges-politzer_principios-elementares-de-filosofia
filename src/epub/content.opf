@@ -34,12 +34,20 @@
 		<dc:description id="description">Este documento apresenta o prefácio de um manual elementar de filosofia marxista ensinado por Georges Politzer na Universidade Operária de Paris nos anos 1930. O prefácio descreve o objetivo e método de ensino de Politzer, que visava tornar a filosofia marxista acessível aos trabalhadores manuais através de uma linguagem simples e exemplos familiares. O autor publica o manual com base em seus apontamentos dos cursos de Politzer para homenagear seu trabalho de formação política dos militantes e manter viva sua memória.</dc:description>
 		<dc:language>pt-PT</dc:language>
 		<dc:source>https://www.marxists.org/portugues/politzer/1936/mes/principios-pt.pdf</dc:source>
-		<dc:creator id="author">Georges Politzer</dc:creator>
-		<meta property="file-as" refines="#author">Politzer, Georges</meta>
-		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="writer-of-preface">Maurice Le Goas</dc:creator>
+		<dc:creator id="author-1">Georges Politzer</dc:creator>
+		<meta property="file-as" refines="#author-1">Politzer, Georges</meta>
+		<meta property="role" refines="#author-1" scheme="marc:relators">aut</meta>
+		<dc:contributor id="author-2">Guy Besse</dc:contributor>
+		<meta property="file-as" refines="#author-2">Besse, Guy</meta>
+		<meta property="role" refines="#author-2" scheme="marc:relators">trc</meta>
+		<meta property="role" refines="#author-2" scheme="marc:relators">ann</meta>
+		<dc:contributor id="author-3">Maurice Caveing</dc:contributor>
+		<meta property="file-as" refines="#author-3">Caveing, Maurice</meta>
+		<meta property="role" refines="#author-3" scheme="marc:relators">trc</meta>
+		<meta property="role" refines="#author-3" scheme="marc:relators">ann</meta>
+		<dc:contributor id="writer-of-preface">Maurice Le Goas</dc:contributor>
 		<meta property="file-as" refines="#writer-of-preface">Le Goas, Maurice</meta>
-		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
+		<meta property="role" refines="#writer-of-preface" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">[Contributor1]</dc:contributor>
 		<meta property="file-as" refines="#artist">[Contributor1Sorted]</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
@@ -52,9 +60,7 @@
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
 		<item href="css/local.css" id="local.css" media-type="text/css"/>
 		<item href="css/se.css" id="se.css" media-type="text/css"/>
-		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
-		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
 		<item href="text/chapter-1.xhtml" id="chapter-1.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
