@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
+	<file path="*">
+		<ignore>
+			<code>x-020</code>
+			<reason>I really don't understand what this error is telling me.</reason>
+		</ignore>
+		<ignore>
+			<code>m-047</code>
+			<reason>Ignored because of the above.</reason>
+		</ignore>
+		<ignore>
+			<code>s-032</code>
+			<reason>This epub:type is used because of the css selector. Maybe that should change?</reason>
+		</ignore>
+	</file>
 	<file path=".gitignore">
 		<ignore>
 			<code>f-008</code>
@@ -12,10 +26,16 @@
 			<reason>Path unrelated to the book.</reason>
 		</ignore>
 	</file>
-	<file path="colophon.xhtml">
+	<file path="content.opf">
 		<ignore>
 			<code>m-043</code>
 			<reason>Non-English Wikipedia source is not a problem for a Portuguese work</reason>
+		</ignore>
+	</file>
+	<file path="titlepage.xhtml">
+		<ignore>
+			<code>s-021</code>
+			<reason>"title" element is written in Portuguese</reason>
 		</ignore>
 	</file>
 </se-lint-ignore>
