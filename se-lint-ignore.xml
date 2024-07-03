@@ -38,4 +38,20 @@
 			<reason>"title" element is written in Portuguese</reason>
 		</ignore>
 	</file>
+	<file path="colophon.xhtml">
+		<ignore>
+			<code>m-035</code>
+			<reason>S.E. identifiers don't make sense in this publication</reason>
+		</ignore>
+	</file>
+	<file path="intro-1.xhtml">
+		<ignore>
+			<code>s-023</code>
+			<reason>This casing makes sense for titles in Portuguese</reason>
+		</ignore>
+		<ignore>
+			<code>t-002</code>
+			<reason>In this word, the quotes denote some sort of sarcasm</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
