@@ -6,6 +6,10 @@
 			<reason>I really don't understand what this error is telling me.</reason>
 		</ignore>
 		<ignore>
+			<code>s-023</code>
+			<reason>This casing makes sense for titles in Portuguese</reason>
+		</ignore>
+		<ignore>
 			<code>m-047</code>
 			<reason>Ignored because of the above.</reason>
 		</ignore>
@@ -46,29 +50,17 @@
 	</file>
 	<file path="intro-1.xhtml">
 		<ignore>
-			<code>s-023</code>
-			<reason>This casing makes sense for titles in Portuguese</reason>
-		</ignore>
-		<ignore>
 			<code>t-002</code>
 			<reason>In this word, the quotes denote some sort of sarcasm</reason>
 		</ignore>
 	</file>
 	<file path="chapter-1-1.xhtml">
 		<ignore>
-			<code>s-023</code>
-			<reason>This casing makes sense for titles in Portuguese</reason>
-		</ignore>
-		<ignore>
 			<code>t-002</code>
 			<reason>In this word, the quotes denote some sort of sarcasm</reason>
 		</ignore>
 	</file>
 	<file path="chapter-1-2.xhtml">
-		<ignore>
-			<code>s-023</code>
-			<reason>This casing makes sense for titles in Portuguese</reason>
-		</ignore>
 		<ignore>
 			<code>t-002</code>
 			<reason>In these words, the quotes denote some sort of sarcasm or reference</reason>
@@ -80,9 +72,11 @@
 	</file>
 	<file path="chapter-1-3.xhtml">
 		<ignore>
-			<code>s-023</code>
-			<reason>This casing makes sense for titles in Portuguese</reason>
+			<code>t-002</code>
+			<reason>In this word, this is not a direct citation</reason>
 		</ignore>
+	</file>
+		<file path="chapter-1-4.xhtml">
 		<ignore>
 			<code>t-002</code>
 			<reason>In this word, this is not a direct citation</reason>
