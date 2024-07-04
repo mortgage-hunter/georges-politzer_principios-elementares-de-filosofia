@@ -78,4 +78,14 @@
 			<reason>The citation spans multiple paragraphs</reason>
 		</ignore>
 	</file>
+	<file path="chapter-1-3.xhtml">
+		<ignore>
+			<code>s-023</code>
+			<reason>This casing makes sense for titles in Portuguese</reason>
+		</ignore>
+		<ignore>
+			<code>t-002</code>
+			<reason>In this word, this is not a direct citation</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
