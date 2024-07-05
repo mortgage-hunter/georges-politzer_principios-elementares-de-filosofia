@@ -101,4 +101,10 @@
 			<reason>The paragraph is completed by a citation</reason>
 		</ignore>
 	</file>
+	<file path="chapter-2-1.xhtml">
+		<ignore>
+			<code>t-002</code>
+			<reason>This is not a direct citation</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
