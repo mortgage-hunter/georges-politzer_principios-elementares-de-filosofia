@@ -107,4 +107,10 @@
 			<reason>This is not a direct citation</reason>
 		</ignore>
 	</file>
+	<file path="chapter-2-2.xhtml">
+		<ignore>
+			<code>t-002</code>
+			<reason>This is not a direct citation</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
