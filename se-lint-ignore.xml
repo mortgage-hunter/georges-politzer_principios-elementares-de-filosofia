@@ -147,4 +147,18 @@
 			<reason>These endnote links are before a comma</reason>
 		</ignore>
 	</file>
+	<file path="chapter-4-2.xhtml">
+		<ignore>
+			<code>t-002</code>
+			<reason>This is not a direct citation</reason>
+		</ignore>
+		<ignore>
+			<code>t-065</code>
+			<reason>The header is a citation and has an ellipsis</reason>
+		</ignore>
+		<ignore>
+			<code>t-032</code>
+			<reason>abbr element has eoc class, but ends the clause with ellipsis</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
