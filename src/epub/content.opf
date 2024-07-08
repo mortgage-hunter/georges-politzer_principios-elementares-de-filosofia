@@ -94,11 +94,11 @@
 		<itemref idref="chapter-1-4.xhtml"/>
 		<itemref idref="chapter-1-5.xhtml"/>
 		<itemref idref="questions-1.xhtml"/>
-		<itemref idref="questions-2.xhtml"/>
 		<itemref idref="part-2.xhtml"/>
 		<itemref idref="chapter-2-1.xhtml"/>
 		<itemref idref="chapter-2-2.xhtml"/>
 		<itemref idref="chapter-2-3.xhtml"/>
+		<itemref idref="questions-2.xhtml"/>
 		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>

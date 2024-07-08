@@ -118,5 +118,9 @@
 			<code>t-002</code>
 			<reason>This is not a direct citation</reason>
 		</ignore>
+		<ignore>
+			<code>t-020</code>
+			<reason>These endnote links are before a comma</reason>
+		</ignore>
 	</file>
 </se-lint-ignore>
