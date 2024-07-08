@@ -123,4 +123,18 @@
 			<reason>These endnote links are before a comma</reason>
 		</ignore>
 	</file>
+	<file path="chapter-3-1.xhtml">
+		<ignore>
+			<code>t-002</code>
+			<reason>This is not a direct citation</reason>
+		</ignore>
+		<ignore>
+			<code>t-032</code>
+			<reason>abbr element has eoc class, but ends the clause with ellipsis</reason>
+		</ignore>
+		<ignore>
+			<code>y-003</code>
+			<reason>Paragraph misses punctuation because it continues in the next one</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
