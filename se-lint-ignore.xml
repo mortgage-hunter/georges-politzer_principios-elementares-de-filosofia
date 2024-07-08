@@ -48,6 +48,12 @@
 			<reason>S.E. identifiers don't make sense in this publication</reason>
 		</ignore>
 	</file>
+	<file path="endnotes.xhtml">
+		<ignore>
+			<code>t-002</code>
+			<reason>This is not a direct citation</reason>
+		</ignore>
+	</file>
 	<file path="intro-1.xhtml">
 		<ignore>
 			<code>t-002</code>
@@ -159,6 +165,16 @@
 		<ignore>
 			<code>t-032</code>
 			<reason>abbr element has eoc class, but ends the clause with ellipsis</reason>
+		</ignore>
+	</file>
+	<file path="chapter-4-3.xhtml">
+		<ignore>
+			<code>t-002</code>
+			<reason>This is not a direct citation</reason>
+		</ignore>
+		<ignore>
+			<code>t-043</code>
+			<reason>The book is not in English</reason>
 		</ignore>
 	</file>
 </se-lint-ignore>
