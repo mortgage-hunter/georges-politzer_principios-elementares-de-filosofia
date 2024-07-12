@@ -205,4 +205,18 @@
 			<reason>The paragraph doesn't end with punctuation because it is completed with the title of the next article.</reason>
 		</ignore>
 	</file>
+	<file path="chapter-6-1.xhtml">
+		<ignore>
+			<code>t-002</code>
+			<reason>This is not a direct citation</reason>
+		</ignore>
+		<ignore>
+			<code>t-020</code>
+			<reason>These endnote links are before a comma</reason>
+		</ignore>
+		<ignore>
+			<code>t-043</code>
+			<reason>The book is not in English</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
