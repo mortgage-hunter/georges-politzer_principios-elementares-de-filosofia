@@ -199,4 +199,10 @@
 			<reason>This is not a direct citation</reason>
 		</ignore>
 	</file>
+	<file path="chapter-5-2.xhtml">
+		<ignore>
+			<code>y-003</code>
+			<reason>The paragraph doesn't end with punctuation because it is completed with the title of the next article.</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
