@@ -219,4 +219,10 @@
 			<reason>The book is not in English</reason>
 		</ignore>
 	</file>
+	<file path="glossary.xhtml">
+		<ignore>
+			<code>t-002</code>
+			<reason>This is not a direct citation</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
