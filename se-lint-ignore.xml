@@ -54,6 +54,12 @@
 			<reason>This is not a direct citation</reason>
 		</ignore>
 	</file>
+	<file path="imprint.xhtml">
+		<ignore>
+			<code>m-061</code>
+			<reason>Non-English work, so this shouldn't matter</reason>
+		</ignore>
+	</file>
 	<file path="intro-1.xhtml">
 		<ignore>
 			<code>t-002</code>
