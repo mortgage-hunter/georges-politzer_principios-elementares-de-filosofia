@@ -166,10 +166,6 @@
 			<code>t-002</code>
 			<reason>This is not a direct citation</reason>
 		</ignore>
-		<ignore>
-			<code>t-065</code>
-			<reason>The header is a citation and has an ellipsis</reason>
-		</ignore>
 	</file>
 	<file path="chapter-4-3.xhtml">
 		<ignore>
