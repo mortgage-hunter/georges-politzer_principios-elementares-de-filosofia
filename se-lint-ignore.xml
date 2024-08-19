@@ -53,6 +53,10 @@
 			<code>t-002</code>
 			<reason>This is not a direct citation</reason>
 		</ignore>
+		<ignore>
+			<code>y-005</code>
+			<reason>The publication title contains a question mark</reason>
+		</ignore>
 	</file>
 	<file path="imprint.xhtml">
 		<ignore>
@@ -223,6 +227,10 @@
 		<ignore>
 			<code>t-002</code>
 			<reason>This is not a direct citation</reason>
+		</ignore>
+		<ignore>
+			<code>y-005</code>
+			<reason>The publication title contains a question mark</reason>
 		</ignore>
 	</file>
 </se-lint-ignore>
