@@ -2,9 +2,9 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">georges-politzer/principios-elementares-de-filosofia</dc:identifier>
-		<dc:identifier id="url">url:https://github.com/MortgageHunter/georges-politzer_principios-elementares-de-filosofia</dc:identifier>
+		<dc:identifier id="url">url:https://codeberg.org/mortgage-hunter/georges-politzer_principios-elementares-de-filosofia</dc:identifier>
 		<dc:date>2024-07-13T21:21:45Z</dc:date>
-		<meta property="dcterms:modified">2024-08-20T00:37:28Z</meta>
+		<meta property="dcterms:modified">2024-10-30T22:40:42Z</meta>
 		<dc:rights>This ebook is under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</dc:rights>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
@@ -52,9 +52,9 @@
 		<dc:contributor id="artist">George Hendrik Breitner</dc:contributor>
 		<meta property="file-as" refines="#artist">Hendrik Breitner, George</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber">MortgageHunter</dc:contributor>
-		<meta property="file-as" refines="#transcriber">MortgageHunter</meta>
-		<meta property="z3998:http" refines="#transcriber">https://github.com/MortgageHunter</meta>
+		<dc:contributor id="transcriber">mortgage-hunter</dc:contributor>
+		<meta property="file-as" refines="#transcriber">mortgage-hunter</meta>
+		<meta property="z3998:http" refines="#transcriber">https://codeberg.org/mortgage-hunter</meta>
 		<meta property="role" refines="#transcriber" scheme="marc:relators">trc</meta>
 	</metadata>
 	<manifest>
